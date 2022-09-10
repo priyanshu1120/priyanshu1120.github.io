@@ -1,13 +1,20 @@
+import React from "react"
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import './index.css';
+import Routers from "./Routes/Routes";
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
-      <h2>this is deploye app</h2>
-      <h2>its new thing</h2>
-    </div>
+  
+    <>
+      <Navbar />
+      <Routers />
+      <Footer />
+      
+    </>
+
   );
 }
 

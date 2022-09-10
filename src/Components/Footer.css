@@ -1,0 +1,50 @@
+.footer{
+    width:100%;
+    padding:6rem 0;
+    background-color:rgb(19,26,39); ;
+}
+
+.footer-Content{
+    max-width:1140px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+
+}
+
+.leftSide{
+    height:100%;
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+ 
+}
+
+.location {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+
+.mobile {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.rightSide{
+    height:100%;
+    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+
+}
