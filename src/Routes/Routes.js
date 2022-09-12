@@ -12,7 +12,7 @@ const Routers = () => {
             <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/contect" element={<Contect />} />
-      <Route path="/skills" element={<Skills />} />
+      {/* <Route path="/skills" element={<Skills />} /> */}
       <Route path="/about" element={<About />} />
       <Route path="/project" element={<Project />} />
       </Routes>
