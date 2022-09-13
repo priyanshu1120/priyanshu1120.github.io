@@ -36,7 +36,7 @@ import "./AboutContent.css"
      <div className="right">
        <div className="content-container">
         <div className="content-stack-top">
-            <img src="masai.png" className="img" alt="mongodb"/>
+            <img src="Masai.png" className="img" alt="mongodb"/>
         </div>
      
         <div className="content-stack-bottom">
