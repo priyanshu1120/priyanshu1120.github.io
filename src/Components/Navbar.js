@@ -37,7 +37,7 @@ const Navbar = () => {
                 <Link to="/skills">Skills</Link>
             </li> */}
             <li>
-                <Link to="/contect">Contect</Link>
+                <Link to="/contect">Contact</Link>
             </li>
             <li>
                 <Link to="/about">About</Link>
@@ -49,9 +49,6 @@ const Navbar = () => {
                 visible ? ( <FaTimes size={20} style={{color:"#fff"}} />):
                 ( <FaBars size={20} style={{color:"#fff"}} />)
             }
-          
-          
-
         </div>
 
     </div>
