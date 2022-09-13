@@ -17,6 +17,7 @@ const ProjectWork = () => {
               key={index}
               imgsrc={val.imgsrc}
               title={val.title}
+              tool = {val.tool}
               text={val.text}
               code={val.code}
               source={val.source}

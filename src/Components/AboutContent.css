@@ -50,3 +50,31 @@
 .right .content-stack-bottom{
     z-index: 5;
 }
+
+@media  screen and (max-width:840px) {
+   
+    .right .content-container{
+
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        position: relative;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .right .img{
+      max-width: 100%;
+      border:ipx solid white;  
+    }
+    
+    .right .content-stack-top{
+    
+        padding-top: 10%;
+        z-index: 6;
+    }
+    
+    .right .content-stack-bottom{
+        z-index: 5;
+    }
+}
