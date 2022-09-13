@@ -16,7 +16,7 @@ const ProjectCardData = [
         source:"https://constructweek-project-rct101.vercel.app/"
     },
     {
-        imgsrc:"./internthory.png",
+        imgsrc:"./mealapp.png",
         title:"Meal App Website",
         text:"Mealime is a simple way for busy singles, couples, and families to plan their meals and eat healthier. Our meal plans & recipes are highly customizable so you can easily personalize a plan that works with your unique tastes and lifestyle.",
         code:"https://github.com/masai-course/priyanshu_fw19_0658/tree/master/unit-4/sprint-3/day-4/assignments",
