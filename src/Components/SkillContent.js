@@ -8,7 +8,25 @@ const SkillContent = () => {
   return (
     <div className="skills-main">
         <h1>Skills</h1>
+       
         <div className="skills-mid">
+            
+        <div className="skill">
+                <img className="img" src="front-end.png" alt="front-end"/>
+                <h3>FRONTEND</h3>
+            </div>
+
+            <div className="skill">
+                <img className="img" src="backend.png" alt="html"/>
+                <h3>BACKEND</h3>
+            </div>
+
+            <div className="skill">
+                <img className="img" src="datastructure.png" alt="html"/>
+                <h3>DATA STRUCTURE</h3>
+            </div>
+
+
             <div className="skill">
                 <img className="img" src="HTML5.png" alt="html"/>
                 <h3>HTML</h3>
