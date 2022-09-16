@@ -38,7 +38,7 @@ const Footer = () => {
               <div className="social">
               <a href="https://www.linkedin.com/in/priyanshu-kaushik-426422210"><FaLinkedin size={50} style={{color:"#fff",marginRight:"2rem"}} /></a>
               <a href="https://github.com/priyanshu1120"><FaGithub size={50} style={{color:"#fff",marginRight:"2rem"}} /></a>
-              <a href=""><FaFacebook size={50} style={{color:"#fff",marginRight:"2rem"}} /></a>
+              <a href="https://www.facebook.com/priyanshu1120"><FaFacebook size={50} style={{color:"#fff",marginRight:"2rem"}} /></a>
               </div>
             </div> 
         </div>

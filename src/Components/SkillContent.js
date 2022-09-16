@@ -1,10 +1,13 @@
 import "./SkillContent.css";
 
+import GitHubCalendar from 'react-github-calendar';
+
 
 
 import React from 'react'
 
 const SkillContent = () => {
+    
   return (
     <div className="skills-main">
         <h1>Skills</h1>
@@ -64,6 +67,53 @@ const SkillContent = () => {
                 <h3>Redux</h3>
             </div>
         </div>
+
+        
+        <div id="static">
+          <div className="main-stat" > 
+            <div >
+              <h1 >STATISTICS</h1>
+            </div>
+  
+            <div className="static-container">
+              <div className="static-box" >
+                <div className="circle-box">
+                  <div>1200+</div>
+                  <div><h3>Hours</h3> of Full Stack Coding</div>
+                </div>
+    
+                <div className="circle-box">
+                  <div >250+</div>
+                  <div><h3>DSA</h3>Problems</div>
+                </div>
+    
+                <div className="circle-box">
+                  <div>220+</div>
+                  <div><h3>Git</h3>Commits</div>
+                </div>
+    
+                <div className="circle-box">
+                  <div >10+</div>
+                  <div><h3>Projects</h3>Done</div>
+                </div>
+    
+                
+                <div className="circle-box">
+                  <div>100+</div>
+                  <div><h3>Hours</h3> of Soft Skills Sessions</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div>
+        <h1 style={{marginTop:"6rem"}}>Github Calender</h1>
+         <GitHubCalendar username="priyanshu1120" style={{color:"white",margin:"auto",marginTop:"2rem"}} />
+        </div>  
+
     </div>
   )
 }
