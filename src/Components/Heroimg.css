@@ -55,12 +55,13 @@
  }
 
  .heroimg .content .btn-box{
-   
+    
     margin-top: 30px;
 }
 
-.heroimg .content .Btn {
 
+.heroimg .content .Btn {
+ 
     margin:1rem 0.2rem;
     margin-top: 100px;
  }
@@ -78,7 +79,6 @@
  @media screen and (max-width:640px) {
     .heroimg .content h1{
         font-size:3rem;
- 
      }
      
      .heroimg .content p{
