@@ -103,7 +103,7 @@ const SkillContent = () => {
               <h1 >STATISTICS</h1>
             </div>
   
-            <div className="static-container">
+            {/* <div className="static-container"> */}
               <div className="static-box" >
                 <div className="circle-box">
                   <div>1200+</div>
@@ -132,7 +132,7 @@ const SkillContent = () => {
                 </div>
 
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
 

@@ -9,7 +9,7 @@ import { Route, Routes } from "react-router-dom";
 const Routers = () => {
   return (
     <div>
-            <Routes>
+      <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/contect" element={<Contect />} />
       <Route path="/skills" element={<Skills />} />

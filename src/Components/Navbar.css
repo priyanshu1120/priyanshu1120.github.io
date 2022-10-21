@@ -1,5 +1,6 @@
 .Header{
     display:flex;
+    
     justify-content: space-between;
     align-items:center;
     padding:1rem;
@@ -16,6 +17,7 @@
 
 .navbar-menu{
     display:flex;
+    /* border:1px solid red; */
 
 }
 
@@ -34,7 +36,6 @@
 
 @media screen and (max-width:1040px) {
     .navbar-menu{
-  
        flex-direction:column;
        justify-content: center;
        align-items: center;
