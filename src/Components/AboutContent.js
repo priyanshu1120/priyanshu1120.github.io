@@ -11,8 +11,7 @@ import "./AboutContent.css"
         <a href="./priyanshu_kaushik_resume.pdf" download><button className="Btn">Download CV</button></a>
        </div>
 
-     
-
+    
      <div className="right">
        <div className="content-container">
         <div className="content-stack-top">
