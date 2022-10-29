@@ -43,8 +43,10 @@ const Navbar = () => {
             </li>
           
             <li>
-                <Link to="/contect">Contact</Link>
+                <a href="./priyanshu_kaushik_resume.pdf" download>Resume</a>
             </li>
+
+
          
         </ul>
 
