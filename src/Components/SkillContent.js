@@ -102,37 +102,15 @@ const SkillContent = () => {
             <div >
               <h1 >STATISTICS</h1>
             </div>
-  
-            {/* <div className="static-container"> */}
-              <div className="static-box" >
-                <div className="circle-box">
-                  <div>1200+</div>
-                  <div><h3>Hours</h3> of Full Stack Coding</div>
-                </div>
-    
-                <div className="circle-box">
-                  <div >250+</div>
-                  <div><h3>DSA</h3>Problems</div>
-                </div>
-    
-                <div className="circle-box">
-                  <div>220+</div>
-                  <div><h3>Git</h3>Commits</div>
-                </div>
-    
-                <div className="circle-box">
-                  <div >10+</div>
-                  <div><h3>Projects</h3>Done</div>
-                </div>
-    
-                
-                <div className="circle-box">
-                  <div>100+</div>
-                  <div><h3>Hours</h3> of Soft Skills Sessions</div>
-                </div>
-
+            
+             <div className="static">
+              <div>
+              <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=priyanshu1120&show_icons=true&locale=en&layout=compact" alt="priyanshu1120" width="100%" height="100%"  />
               </div>
-            {/* </div> */}
+              <div>
+               &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=priyanshu1120&show_icons=true&locale=en" alt="priyanshu1120" width="100%" height="100%" />
+              </div>
+              </div>
           </div>
         </div>
 

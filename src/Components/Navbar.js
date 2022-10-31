@@ -46,8 +46,6 @@ const Navbar = () => {
                 <a href="./priyanshu_kaushik_resume.pdf" download>Resume</a>
             </li>
 
-
-         
         </ul>
 
         <div className="toggle" onClick={handleClick}>
