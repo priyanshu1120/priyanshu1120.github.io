@@ -1,6 +1,8 @@
 // import "./SkillContent.css";
  import "./skill.css"
-
+import {FaReact,FaNodeJs,FaHtml5,FaGitAlt,FaGithub} from "react-icons/fa"
+import {SiChakraui,SiVisualstudiocode,SiCss3,SiExpress,SiMongodb,SiJavascript,SiRedux} from "react-icons/si"
+import {FcTreeStructure} from "react-icons/fc"
 import GitHubCalendar from 'react-github-calendar';
 
 
@@ -14,86 +16,96 @@ const SkillContent = () => {
         <h1>Skills</h1>
        
         <div className="skills-mid">
-            
-         <div className="skill">
-               <div className="skillsets">
-                <img className="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNDYV-2Wzdq5gaHKhkTp_viMt0M81dTTnikA&usqp=CAU" alt="front-end"/>
-              </div>  
-                <h3>FRONTEND</h3>
+         <div className="frontend-box">
+           <h2 className="sub-heading-skill">FRONTEND</h2>
+           <div className="frontend-skill-box">
+               <div>
+                  <FaReact className="icons" style={{color:"#61dbfb"}}/>
+                  <h3>React</h3>
+               </div>
 
-            </div>
+               <div>
+                  <SiRedux className="icons" style={{color:"#764abc"}}/>
+                  <h3>Redux</h3>
+               </div>
 
-            <div className="skill">
-              <div className="skillsets">
-                <img className="img" src="backend.png" alt="html"/>
-                </div> 
-                <h3>BACKEND</h3>
-            </div>
+               <div>
+                  <SiChakraui className="icons" style={{color:"#6fcad0"}}/>
+                  <h3>Chakra UI</h3>
+               </div>
 
-            <div className="skill">
-               <div className="skillsets">
-                <img className="img" src="datastructure.png" alt="html"/>
-                </div> 
-                <h3>DATA STRUCTURE</h3>
-            </div>
+               <div>
+                  <SiCss3 className="icons" style={{color:"#304cdc"}}/>
+                  <h3>CSS</h3>
+               </div>
 
+               <div>
+                  <FaHtml5 className="icons" style={{color:"#e54c21"}}/>
+                  <h3>HTML</h3>
+               </div>
 
-            <div className="skill">
+           </div>
+         </div>  
 
-              <div className="skillsets">
-                <img className="img" src="https://cdn.educba.com/academy/wp-content/uploads/2018/09/Top-Uses-Of-HTML.jpg" alt="html"/>
-                </div>
-                <h3>HTML</h3>
-            </div>
-            <div className="skill">
-              <div className="skillsets">
-               <img className="img"  src="css.png"/>
-              </div>
-               <h3>CSS</h3>
-            </div>
-            
-            <div className="skill">
-              <div className="skillsets">
-               <img className="img" src="javascript.png" alt="js"/>
-               </div> 
-               <h3>JavaScript</h3>
-            </div>
-            <div className="skill">
-                <div className="skillsets">
-                <img className="img" src="github.png" alt="git"/>
-                </div>
-                <h3>Git</h3>
-            </div>
-            <div className="skill">
-               <div className="skillsets">
-                <img className="img" src="chakraui.png" alt="chakra"/>
-                </div> 
-                <h3>chakra-UI</h3>
-            </div>
-            <div className="skill">
-                <div className="skillsets">
-                <img className="img" src="mongodb.jpg" alt="mongo"/>
-                </div> 
-                <h3>MongoDB</h3>
-            </div>
-            <div className="skill">
-              <div className="skillsets">
-               <img className="img" src="node.png" alt="nodejs"/>
-              </div>
-               <h3>NodeJs</h3>
-            </div>
-            <div className="skill">
-               <div className="skillsets">
-                 <img className="img" src="React Cover.jpg" alt="react"/>
-                </div>
-                 <h3>React</h3>
-            </div>
-            <div className="skill">
-            <div className="skillsets">
-                <img className="img" src="https://codeit.mk/dam/jcr:2200ee35-a3b1-43c0-9589-e036ae9ea5d8/redux.1.2020-12-17-07-49-19.png" alt="redux"/>
-            </div>  
-                <h3>Redux</h3>
-            </div>
+          <div className="backend-box">
+           <h2 className="sub-heading-skill">BACKEND</h2>
+           <div className="backend-skill-box">
+               <div>
+               <FaNodeJs className="icons" style={{color:"#90c53f"}}/>
+               <h3>Node Js</h3>
+               </div>
+
+               <div>
+               <SiExpress className="icons" style={{color:"#90c53f"}} />
+               <h3>Express</h3>
+               </div>
+
+               <div>
+               <SiMongodb className="icons" style={{color:"#0fa14c"}}/>
+               <h3>Mongo Db</h3>
+
+               </div>
+           </div>
+         </div>   
+        
+         <div className="Tool-box">
+           <h2 className="sub-heading-skill">TOOLS</h2>
+           <div className="tool-skill-box">
+               <div>
+               <SiVisualstudiocode className="icons" style={{color:"#24aff2"}}/>
+               <h3>V.S.code</h3>
+               </div>
+
+               <div>
+               <FaGitAlt className="icons" style={{color:"#f05033"}}/>
+               <h3>Git</h3>
+               </div>
+
+               <div>
+               <FaGithub className="icons" style={{color:"black"}}/>
+               <h3>Github</h3>
+               </div>
+           </div>
+         </div>  
+
+                 
+         <div className="other-box">
+           <h2 className="sub-heading-skill">LANGUAGE</h2>
+           <div className="other-skill-box">
+               <div>
+               <SiJavascript className="icons" style={{color:"#ead41c"}}/>
+               <h3>Java Script</h3>
+               </div>
+
+               <div>
+               <FcTreeStructure className="icons" style={{color:"#90c53f"}}/>
+               <h3>DSA</h3>
+               </div>
+
+           </div>
+         </div>  
+
+       
         </div>
 
         
