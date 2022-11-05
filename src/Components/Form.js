@@ -12,7 +12,7 @@ const Form = () => {
 
   return (
     <>
-        <h1 style={{textAlign:"center", marginTop:"30px"}}>Contact Me</h1>
+        <h1 style={{textAlign:"center", marginTop:"30px"}} id="contect">Contact Me</h1>
     <div className="form">
         <form onSubmit={handleSubmit}>
             <label>Your Name</label>

@@ -80,12 +80,12 @@ h3{
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 520px) {
 
 
     .skills-mid {
         width:90%;
-        padding:0.1rem;   
+        padding:0rem;   
     }
      
     .icons{
@@ -96,11 +96,11 @@ h3{
     
     .sub-heading-skill{
         font-weight: 600;
-        font-size: 12px;
+        font-size: 14px;
     }
     
     h3{
-        font-size: 10px;
+        font-size: 12px;
     }
     
     

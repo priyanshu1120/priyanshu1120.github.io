@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard"
 
 const ProjectWork = () => {
   return (
-    <div className="project-container">
+    <div className="project-container" id="project">
         <h1 className="project-heading">Project</h1>
         <div className="project-container2">
          {

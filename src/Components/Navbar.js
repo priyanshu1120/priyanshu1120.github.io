@@ -1,15 +1,21 @@
 import "./Navbar.css"
 import { FaBars, FaTimes } from "react-icons/fa"
 import React from 'react'
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import { useState } from "react"
+import {Link} from "react-scroll"
 
 const Navbar = () => {
 
     const [visible,setVisible] = useState(false)
     const [navColor,setNavColor] = useState(false);
+   
     const handleClick = ()=>{
         setVisible(!visible)
+    }
+   
+    const closeMenu = ()=>{
+        setVisible(true)
     }
   
     const changeColor = ()=>{
@@ -25,24 +31,24 @@ const Navbar = () => {
 
   return (
     <div className={navColor ? "Header Header-bg" : "Header"}>
-        <Link to="/"><h1>Portfolio</h1></Link>
+        <Link to="home"><h1>Portfolio</h1></Link>
         <ul className={visible ? "navbar-menu active" : "navbar-menu"}>
-            <li>
-                <Link to="/">Home</Link>
+            <li className="nav-item">
+                <Link to="home"  >Home</Link>
             </li>
-            <li>
-                <Link to="/about">About</Link>
-            </li>
-
-            <li>
-                <Link to="/skills">Skills</Link>
+            <li className="nav-item">
+                <Link to="about" spy={true} smooth={true} offset={-180} duration={500} onClick={closeMenu}>About</Link>
             </li>
 
-            <li>
-                <Link to="/project">Project</Link>
+            <li className="nav-item">
+                <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
+            </li>
+
+            <li className="nav-item">
+                <Link to="project" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Project</Link>
             </li>
           
-            <li>
+            <li className="nav-item">
                 <a href="./priyanshu_kaushik_resume.pdf" download>Resume</a>
             </li>
 
