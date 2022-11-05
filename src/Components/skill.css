@@ -40,25 +40,25 @@
 }
 
 
-
-
-
-.main-stat{
-    width:100%;
-    height:auto;
-    text-align: center;
-    margin-top: 60px;
-}
-
-
 .icons{
     width:60px;
     height:60px;
     
 }
 
+
+
+
+
+
+
 @media only screen and (max-width: 720px) {
 
+
+
+    .skills-mid {
+        width:90%;   
+    }
      
 .icons{
     width:40px;
@@ -80,10 +80,12 @@ h3{
 
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
+
 
     .skills-mid {
-        width:95%;   
+        width:90%;
+        padding:0.1rem;   
     }
      
     .icons{
@@ -103,6 +105,16 @@ h3{
     
     
     }
+
+
+    .main-stat{
+        width:100%;
+        height:auto;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+
 
 
   .static{
