@@ -37,6 +37,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
+    /* display: inline-block; */
+    animation:bounce; 
+    animation-duration: 2s;
 }
 
 

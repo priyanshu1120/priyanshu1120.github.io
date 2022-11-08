@@ -1,5 +1,5 @@
 import "./ProjectCard.css"
-
+// import 'animate.css';
 import React from 'react'
 
 
@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
     <div className="project-details">
         <p>{props.text}</p>
         <div className="project-btns">
-           <a href={ `${props.code}`} target="_blank" rel="noreferrer" className="Btn">Code</a>  
+           <a href={ `${props.code}`} target="_blank" rel="noreferrer" className="Btn" >Code</a>  
            <a href={`${props.source}`} target="_blank"  rel="noreferrer" className="Btn">Source</a> 
         </div>
     </div>

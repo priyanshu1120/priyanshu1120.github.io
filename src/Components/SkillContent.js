@@ -125,8 +125,7 @@ const SkillContent = () => {
               </div>
           </div>
         </div>
-
-
+        
          <div>
         <h1 style={{marginTop:"6rem"}}>Github Calender</h1>
          <GitHubCalendar username="priyanshu1120" style={{color:"white",margin:"auto",marginTop:"2rem"}} />

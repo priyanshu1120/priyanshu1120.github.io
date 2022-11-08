@@ -54,13 +54,16 @@
 @media  screen and (max-width:840px) {
    
     .right .content-container{
-
         display: grid;
         grid-template-columns:repeat(2,1fr) ;
         position: relative;
         align-items: center;
         text-align: center;
         padding: 1rem;
+    }
+
+    .left{
+        border:1px solid white;
     }
     
     .right .img{
@@ -69,12 +72,12 @@
     }
     
     .right .content-stack-top{
-    
-        padding-top: 10%;
-        z-index: 6;
+        display: none;
+        /* padding-top: 10%;
+        z-index: 6; */
     }
     
     .right .content-stack-bottom{
-        z-index: 5;
+       display: none;
     }
 }
