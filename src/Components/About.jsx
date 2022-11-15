@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import {FaFileDownload} from "react-icons/fa"
 import "./About.css";
 const About = () => {
     const [visible,setVisible] = useState(false)
@@ -51,7 +52,7 @@ const About = () => {
         </div>
       </div>
       }
-      
+      <div className="cv"><a href="./priyanshu_kaushik_resume.pdf" download> <FaFileDownload className="downloadicon"/> Resume</a></div> 
     </div>
 
     </div>
