@@ -32,13 +32,13 @@ const Navbar = () => {
 
   return (
     <div className={navColor ? "Header Header-bg" : "Header"}>
-        <Link to="home"><div style={ {display:"flex",alignItem:"center"}}><IoLogoPinterest style={{width:"30px", height:"30px",color:"yellow"}} /><h2>ortfolio</h2></div></Link>
+        <Link to="home"><div style={ {display:"flex",alignItem:"center",cursor:"pointer"}}><IoLogoPinterest style={{width:"30px", height:"30px",color:"yellow"}} /><h2>ortfolio</h2></div></Link>
         <ul className={visible ? "navbar-menu active" : "navbar-menu"}>
             <li className="nav-item">
                 <Link to="home"  >Home</Link>
             </li>
             <li className="nav-item">
-                <Link to="about" spy={true} smooth={true} offset={-180} duration={500} onClick={closeMenu}>About</Link>
+                <Link to="about" spy={true} smooth={true} offset={-130} duration={500} onClick={closeMenu}>About</Link>
             </li>
 
             <li className="nav-item">
