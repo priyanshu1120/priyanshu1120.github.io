@@ -48,6 +48,10 @@ const Navbar = () => {
             <li className="nav-item">
                 <Link to="project" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Project</Link>
             </li>
+
+            <li className="nav-item">
+                <Link to="contect" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+            </li>
           
             <li className="nav-item">
                 <a href="./priyanshu_kaushik_resume.pdf" download>Resume</a>
