@@ -35,22 +35,22 @@ const Navbar = () => {
         <Link to="home"><div style={ {display:"flex",alignItem:"center",cursor:"pointer"}}><IoLogoPinterest style={{width:"30px", height:"30px",color:"yellow"}} /><h2>ortfolio</h2></div></Link>
         <ul className={visible ? "navbar-menu active" : "navbar-menu"}>
             <li className="nav-item">
-                <Link to="home"  >Home</Link>
+                <Link to="home" onClick={handleClick} >Home</Link>
             </li>
             <li className="nav-item">
-                <Link to="about" spy={true} smooth={true} offset={-130} duration={500} onClick={closeMenu}>About</Link>
-            </li>
-
-            <li className="nav-item">
-                <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
+                <Link to="about"  spy={true} smooth={true} offset={-130} duration={500} onClick={()=>{closeMenu();handleClick()}}>About</Link>
             </li>
 
             <li className="nav-item">
-                <Link to="project" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Project</Link>
+                <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu();handleClick()}}>Skills</Link>
             </li>
 
             <li className="nav-item">
-                <Link to="contect" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
+                <Link to="project" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu();handleClick()}}>Project</Link>
+            </li>
+
+            <li className="nav-item">
+                <Link to="contect" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu();handleClick()}}>Contact</Link>
             </li>
           
             <li className="nav-item">

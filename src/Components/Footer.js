@@ -39,9 +39,9 @@ const Footer = () => {
 
            <div className="rightSide">
               <div className="social">
-              <a href="https://www.linkedin.com/in/priyanshu-kaushik-426422210"><FaLinkedin className="linkdin"/></a>
-              <a href="https://github.com/priyanshu1120"><FaGithub  className="github" /></a>
-              <a href="https://www.facebook.com/priyanshu1120"><FaFacebook  className="facebook" /></a>
+              <a href="https://www.linkedin.com/in/priyanshu-kaushik-426422210" target="_blank"><FaLinkedin className="linkdin"/></a>
+              <a href="https://github.com/priyanshu1120" target="_blank"><FaGithub  className="github" /></a>
+              <a href="https://www.facebook.com/priyanshu1120" target="_blank"><FaFacebook  className="facebook" /></a>
               </div>
             </div> 
         </div>

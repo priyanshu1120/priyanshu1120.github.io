@@ -16,7 +16,7 @@ const ProjectCardData = [
         tool:"REACT | REDUX | FIREBASE | CHAKRA UI | ROZERPAY",
         text:"MyTv+ Aspiring from AppleTv+ is the website for watching Movies and shows. its have a subscription functionality and high security authentication with firebase for the users and admin both and we can see different type of category in movies and shows.",
         code:"https://github.com/priyanshu1120/bent-tail-4615",
-        source:"https://appletv-iakashmondal.vercel.app/"
+        source:"https://bymeclone.netlify.app/"
     },
 
     {
