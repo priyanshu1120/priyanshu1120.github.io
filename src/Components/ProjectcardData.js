@@ -19,24 +19,26 @@ const ProjectCardData = [
         source:"https://bymeclone.netlify.app/"
     },
 
+
+
+    {
+        imgsrc:"./internhub.png",
+        title:"Ecommerce Website Design",
+        tool:"REACT | MONGODB | CHAKRA UI | NODE JS | EXPRESS",
+        text:"Thriving Facebook community and top-ranked prodcast, Any inspires a grounded, tangible and self-affirming sense of its a really can do this for over 100,000 online enterpreneurs. Beat-selling marketing courses and there are many types of  courses availbale",
+        code:"https://github.com/priyanshu1120/rhetorical-decision-8061",
+        source:"https://dynamic-alpaca-a2b07a.netlify.app/"
+    },
+
+
     {
         imgsrc:"./maxfashion.png",
         title:"Ecommerce Website Design",
         tool:"HTML | CSS | JS | REACT | API  ",
-        text:"Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. That was opened by an Indian foreigner in the UAE, Micky Jagtiani The brand was first launched in May 2004, in the Middle East in UAE and Other Country and we can buy all clothes of mens and women etc",
+        text:"Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. That was opened by an Indian foreigner in the UAE, Micky Jagtiani The brand was first launched in May 2004  and we can buy all clothes of mens and women etc",
         code:"https://github.com/priyanshu1120/max-fashion_clone",
         source:"https://constructweek-project-rct101.vercel.app/"
     },
-
-    {
-        imgsrc:"./internthory.png",
-        title:"Ecommerce Website Design",
-        tool:"HTML | CSS | JS",
-        text:"Thriving Facebook community and top-ranked prodcast, Any inspires a grounded, tangible and self-affirming sense of its a really can do this for over 100,000 online enterpreneurs. Beat-selling marketing courses and there are many types of  courses availbale",
-        code:"https://github.com/vinitshahilverma/Intern-Theory-Project",
-        source:"https://dynamic-lollipop-22f036.netlify.app/"
-    },
-
     {
         imgsrc:"./mealapp.png",
         title:"Meal App Website",

@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
         <p>{props.text}</p>
         <div className="project-btns">
            <a href={ `${props.code}`} target="_blank" rel="noreferrer" className="Btn" >Code</a>  
-           <a href={`${props.source}`} target="_blank"  rel="noreferrer" className="Btn">Source</a> 
+           <a href={`${props.source}`} target="_blank"  rel="noreferrer" className="Btn">Live</a> 
         </div>
     </div>
 
